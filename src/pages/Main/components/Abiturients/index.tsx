@@ -3,7 +3,7 @@ import { Accordion, AccordionItem } from "@szhsin/react-accordion";
 
 const Abiturients = () => {
     return (
-        <div className="flex flex-col gap-6 bg-white m-[-20px] p-4 rounded-md w-full">
+        <section className="flex flex-col gap-6 bg-white m-[-20px] p-4 rounded-md w-full">
             <h2 className="text-sub-heading">
                 Информация для будущих выпускников
             </h2>
@@ -179,7 +179,7 @@ const Abiturients = () => {
                 </AccordionItem>
             </Accordion>
             <div className="flex gap-4 items-center justify-between"></div>
-        </div>
+        </section>
     );
 };
 

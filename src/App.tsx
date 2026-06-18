@@ -1,5 +1,5 @@
 import "./App.css";
-import { Header } from "./shared";
+import { Footer, Header } from "./shared";
 import { Outlet } from "react-router-dom";
 
 function App() {
@@ -9,6 +9,7 @@ function App() {
             <div className="flex-1 max-w-[1400px] mx-auto">
                 <Outlet />
             </div>
+            <Footer />
         </div>
     );
 }

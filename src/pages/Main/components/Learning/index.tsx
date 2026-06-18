@@ -111,7 +111,7 @@ const MODULES = [
 
 const Learning = () => {
     return (
-        <div className="flex flex-col gap-6 bg-white m-[-20px] p-4 rounded-md w-full">
+        <section className="flex flex-col gap-6 bg-white m-[-20px] p-4 rounded-md w-full">
             <div className="flex justify-between gap-5 [&>*]:flex-[1_1_50%]">
                 <div className="flex flex-col gap-3 items-start">
                     <Badge>Учебные модули</Badge>
@@ -133,7 +133,7 @@ const Learning = () => {
                     <LearningModule key={id} {...md} />
                 ))}
             </Column>
-        </div>
+        </section>
     );
 };
 
