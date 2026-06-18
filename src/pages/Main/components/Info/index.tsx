@@ -9,7 +9,7 @@ const STATISTIC = [
 
 const Info = () => {
     return (
-        <div className="flex flex-col gap-2 mb-2">
+        <div className="flex flex-col gap-2 mb-12">
             <h1 className="text-heading uppercase">Всемирная история</h1>
             <div className="grid grid-cols-[1fr_5%_1fr] gap-2 place-items-center">
                 <div className="flex flex-col gap-3">

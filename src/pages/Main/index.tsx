@@ -3,7 +3,7 @@ import { Column } from "@/shared";
 
 const Main = () => {
     return (
-        <Column gap={10}>
+        <Column gap={8}>
             <Info />
             <Learning />
             <Activities />

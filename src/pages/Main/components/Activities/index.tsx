@@ -31,7 +31,7 @@ const ACTIVITIES = [
 
 const Activities = () => {
     return (
-        <div className="flex flex-col gap-6 mt-2">
+        <div className="flex flex-col gap-6 mt-12">
             <div className="flex justify-between gap-5 [&>*]:flex-[1_1_50%]">
                 <h2 className="text-sub-heading">Наша деятельность</h2>
 
