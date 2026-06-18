@@ -7,7 +7,7 @@ export const router = createBrowserRouter([
         element: <App />,
         children: [
             {
-                path: "/",
+                index: true,
                 element: <Main />,
             },
             {
@@ -16,4 +16,4 @@ export const router = createBrowserRouter([
             },
         ],
     },
-]);
+], {basename: "/history/",});
