@@ -5,7 +5,7 @@ import { Icons } from "../Icons";
 const Footer = () => {
     return (
         <section className="relative overflow-hidden rounded-[48px] px-10 py-4 bg-gradient-to-b from-[#f6f8ff] to-[#eef2ff]">
-            <Column gap={7}>
+            <Column gap={8}>
                 <h1 className="text-heading uppercase">
                     Наши <br /> <span className="text-primary">контакты</span>
                 </h1>
@@ -15,11 +15,11 @@ const Footer = () => {
                         <div className="flex gap-4 items-center">
                             <Icons.MapPinHouse color="#4361ee" />
                             <Column gap={1}>
-                                <p className="text-paragraph text-text-secondary uppercase">
+                                <p className="text-paragraph text-text-secondary">
                                     Адрес
                                 </p>
-                                <p className="text-small uppercase">
-                                    Тургенева, 4. АУД. 470
+                                <p className="text-small">
+                                    Тургенева, 4. Ауд. 470
                                 </p>
                             </Column>
                         </div>
@@ -27,11 +27,11 @@ const Footer = () => {
                         <div className="flex gap-4 items-center">
                             <Icons.Phone color="#4361ee" />
                             <Column gap={1}>
-                                <p className="text-paragraph text-text-secondary uppercase">
+                                <p className="text-paragraph text-text-secondary">
                                     Телефон
                                 </p>
                                 <a
-                                    className="text-paragraph text-primary uppercase"
+                                    className="text-paragraph text-primary"
                                     href="tel:+79991234567"
                                 >
                                     +7 (343) 389-94-24
@@ -76,30 +76,33 @@ const Footer = () => {
 
                         <div className="flex gap-4 items-center">
                             <Icons.User color="#4361ee" />
-                            <Column gap={2}>
-                                <p className="text-paragraph text-secondary uppercase">
-                                    Телефон
+                            <Column>
+                                <p className="text-paragraph">
+                                    Высокова Вероника Витальевна
+                                </p>
+                                <p className="text-small text-text-secondary">
+                                    Научный руководитель
                                 </p>
                                 <a
-                                    className="text-paragraph text-primary uppercase"
-                                    href="tel:+79991234567"
+                                    className="text-paragraph text-primary"
+                                    href="mailto:Veronika.Vysokova@urfu.ru"
                                 >
-                                    +7 (343) 389-94-24
+                                    Veronika.Vysokova@urfu.ru
                                 </a>
                             </Column>
                         </div>
 
                         <div className="flex gap-4 items-center">
                             <Icons.User color="#4361ee" />
-                            <Column gap={2}>
-                                <p className="text-paragraph text-secondary uppercase">
-                                    Email
+                            <Column>
+                                <p className="text-paragraph">
+                                    Чилова Екатерина Платоновна
                                 </p>
                                 <a
-                                    className="text-paragraph text-primary uppercase"
-                                    href="mailto:urfuhist@gmail.com"
+                                    className="text-paragraph text-primary"
+                                    href="mailto:ekaterina.chilova@urfu.ru"
                                 >
-                                    urfuhist@gmail.com
+                                    ekaterina.chilova@urfu.ru
                                 </a>
                             </Column>
                         </div>
