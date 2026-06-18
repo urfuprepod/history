@@ -1,0 +1,24 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="130 60 500 270"
+  fill="none"
+>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#4361EE"/>
+      <stop offset="100%" stop-color="#AAB9FF"/>
+    </linearGradient>
+  </defs>
+
+  <path
+    d="M140 170 L470 70 Q560 90 620 180 L310 300 Z"
+    fill="url(#g)"
+    opacity=".14"
+  />
+
+  <path
+    d="M180 220 L500 120 Q560 140 590 220 L320 320 Z"
+    stroke="url(#g)"
+    stroke-width="3"
+  />
+</svg>
