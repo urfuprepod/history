@@ -1,5 +1,4 @@
 import { Badge, Column } from "@/shared";
-import React from "react";
 import LearningModule from "../LearningModule";
 
 const MODULES = [

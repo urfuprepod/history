@@ -1,4 +1,4 @@
-import React, { type FC, type PropsWithChildren } from "react";
+import { type FC, type PropsWithChildren } from "react";
 import { NavLink } from "react-router-dom";
 import { DEFAULT_STYLES, NAV_LINK_STYLES } from "./constants";
 import clsx from "clsx";

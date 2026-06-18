@@ -1,5 +1,5 @@
 import { Card, Icons } from "@/shared";
-import React, { type FC } from "react";
+import { type FC } from "react";
 
 type Props = {
     icon: keyof typeof Icons;
