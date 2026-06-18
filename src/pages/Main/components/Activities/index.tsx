@@ -1,4 +1,3 @@
-import { Card, Icons } from "@/shared";
 import ActivityCard from "./ActivityCard";
 
 const ACTIVITIES = [

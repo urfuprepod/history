@@ -1,5 +1,5 @@
 import clsx from "clsx";
-import React, { type FC } from "react";
+import { type FC } from "react";
 import { HORIZONTAL_STYLES, VERTICAL_STYLES } from "./constants";
 
 type Props = {
