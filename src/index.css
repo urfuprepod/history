@@ -1,0 +1,88 @@
+@font-face {
+    font-family: "Manrope";
+    src: url("/fonts/Manrope-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Manrope";
+    src: url("/fonts/Manrope-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Manrope";
+    src: url("/fonts/Manrope-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@import "tailwindcss";
+
+@layer base {
+    html * {
+        font-family: "Manrope", sans-serif;
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+@theme {
+    /* Свои цвета — будут как bg-primary, text-secondary */
+    --color-primary: #4361ee;
+    --color-primary-light: #e8ecff;
+    --color-secondary: #e7eafd;
+    --color-text-primary: #08132b;
+    --color-text-secondary: #576a7d;
+    --color-border: #e6eaf2;
+
+    --text-heading: 4rem;
+    --text-heading--line-height: 1.1;
+    --text-heading--font-weight: 500;
+
+    --text-sub-heading: 2.5rem;
+    --text-sub-heading--line-height: 1.25;
+    --text-sub-heading--font-weight: 500;
+
+    --text-paragraph: 1.25rem;
+    --text-paragraph--line-height: 1.5;
+    --text-paragraph--font-weight: 500;
+
+    --text-strong: 1.25rem;
+    --text-strong--line-height: 1.25;
+    --text-strong--font-weight: 700;
+
+    --text-small: 1rem;
+    --text-small--line-height: 1.25;
+    --text-small--font-weight: 500;
+
+    --animate-rotating-cloud: rotating-cloud 10s ease-in-out infinite;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 1920px;
+    padding: 40px 50px;
+    min-height: 100dvh;
+    background-color: #e8ecff;
+}
+
+@keyframes rotating-cloud {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(45deg) translateY(1vw);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
